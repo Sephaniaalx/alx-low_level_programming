@@ -11,8 +11,8 @@
  */
 int _putchar(char c)
 {
-	char c = _putchar
+	c = _putchar;
 
-	putchar(c)
+	putchar(c);
 	return (1);
 }
