@@ -9,7 +9,7 @@
  *
  */
 
-int _islower(int c);
+int _islower(int c)
 {
 int i;
 
@@ -23,5 +23,6 @@ return 1;
 else
 {
 return 0;
+}
 }
 }
