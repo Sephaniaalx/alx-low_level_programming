@@ -4,7 +4,6 @@
 
 /**
  * jack_bauer - prints every minute of the day
- * 
  *
  * Return: Always 0
  */
