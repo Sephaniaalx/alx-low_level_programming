@@ -4,6 +4,7 @@
 
 /**
  * print_last_digit - function thats prints LD
+ * @n: the input argument
  *
  * Return: returns an int
  */
