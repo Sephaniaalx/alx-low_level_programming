@@ -11,18 +11,14 @@
 
 int _islower(int c)
 {
-int i;
+int c;
 
-for (i = 'a'; i <= 'z'; i++)
-{
-_putchar(i);
-if (i = 'c')
+if (c == 'a' || c <= 'z')
 {
 return 1;
 }
 else
 {
 return 0;
-}
 }
 }
