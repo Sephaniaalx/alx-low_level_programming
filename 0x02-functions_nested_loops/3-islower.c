@@ -4,7 +4,7 @@
 
 /**
  * _islower - function prints the lower character
- *
+ *@c: the lower case character
  * Return 1 if c but 0 if not
  *
  */
