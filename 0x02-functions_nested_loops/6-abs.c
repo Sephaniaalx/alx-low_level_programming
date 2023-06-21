@@ -9,15 +9,22 @@
  *
  */
 
-int _abs(int)
+int _abs(int n)
 {
-int number;
-if (number < 0)
+
+if (n < 0)
 {
-return (-number);
+return (n * (-1));
 }
+
+else if (n == 0)
+{
+return (0);
+}
+
 else
 {
-return (number);
+return (n);
 }
+
 }
