@@ -3,16 +3,18 @@
 #include <unistd.h>
 
 /**
- * main - Entry point
+ * print_alphabet - Entry point for printing lower case
  *
  * Return: returns 0 on success
  */
 
-int main(void)
+void print_alphabet(void)
 {
-int alphabet;
+char alphabet;
 for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+{
 _putchar(alphabet);
+}
 _putchar('\n');
 return (0);
 }
