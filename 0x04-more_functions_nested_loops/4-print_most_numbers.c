@@ -4,7 +4,6 @@
 
 /**
  * print_most_numbers - check the code
- * @c: the argument
  * Return: Always 0.
  */
 void print_most_numbers(void)
