@@ -2,10 +2,8 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- * print_square - prints a square
- *@size: print size
- * @i: takes a number
- * @k: takes a number
+ * print_square - prints the square of a figure
+ *@size: print_size
  * Return: an integer
  */
 
