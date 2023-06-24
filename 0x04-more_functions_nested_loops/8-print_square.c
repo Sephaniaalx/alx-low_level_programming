@@ -4,7 +4,9 @@
 /**
  * print_square - prints a square
  *@size: print size
- * Return: Always 0.
+ * @i: takes a number
+ * @k: takes a number
+ * Return: an integer
  */
 
 void print_square(int size)
@@ -32,4 +34,4 @@ else
 {
 _putchar ('\n');
 }
-
+}
