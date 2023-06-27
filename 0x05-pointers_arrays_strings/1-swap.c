@@ -6,7 +6,7 @@
  * swap_int - swaps 2 integers
  * @a: first variable
  * @b: second variable
- * @temp: representing a temporary variable
+ * representing a temporary variable
  *
  * Return: returns nothing
  */
