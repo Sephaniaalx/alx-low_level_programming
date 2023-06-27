@@ -5,6 +5,7 @@
 /**
  * reset_to_98 - function that takes a pointer to an int
  * @*n: pointer to a variable n
+ * @n: takes the argument
  *
  * Return: nothing
  */
