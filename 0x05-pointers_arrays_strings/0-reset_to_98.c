@@ -3,7 +3,7 @@
 #include <unistd.h>
 
 /**
- * main - function that takes a pointer to an int
+ * reset_to_98 - function that takes a pointer to an int
  * @*n: pointer to a variable n
  *
  * Return: nothing
