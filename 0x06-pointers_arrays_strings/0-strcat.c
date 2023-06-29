@@ -10,7 +10,19 @@
 
 char *_strcat(char *dest, char *src)
 {
-	strcat(dest,src);
-	printf("%s", dest);
-	return (0);
+	int j;
+	int i;
+	
+	while(dest[i] != '\0')
+	{
+		i++;
+	}
+	while(src[j] != '\0')
+	{
+		j++;
+		i++
+	}
+	dest[i] = '\0';
+
+	return (dest);
 }
