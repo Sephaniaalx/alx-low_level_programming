@@ -6,7 +6,8 @@
 /**
  * *_strncat - function to cocantenate 2 strings
  * @dest: destination after concatenatiom
- * @src: source 
+ * @src: source
+ * @n: the number of characters you want to print
  *
  * Return: a pointer to the resulting string dest
  */
