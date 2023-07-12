@@ -8,8 +8,6 @@
  */
 char *_strdup(char *str)
 {
-	char *_strdup(char *str)
-{
 	char *point = NULL;
 	unsigned int i, j;
 
@@ -33,5 +31,4 @@ char *_strdup(char *str)
 	point[j] = '\0';
 
 	return (point);
-}
 }
