@@ -8,9 +8,9 @@
  */
 char *_strdup(char *str)
 {
-	char *point = NULL;
+	char *point;
 	unsigned int length;
-	int i;
+	unsigned int i;
 
 	if (str == NULL)
 	{
