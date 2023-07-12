@@ -8,27 +8,30 @@
  */
 char *_strdup(char *str)
 {
+	char *_strdup(char *str)
+{
 	char *point = NULL;
-	unsigned int length;
-	unsigned int i;
+	unsigned int i, j;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	for (length = 0; str[length]; length++)
 
-	point = malloc(sizeof(char) * (length + 1));
+	for (i = 0; str[i]; i++);
+
+	point = malloc(sizeof(char) * (i + 1));
 
 	if (!point)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < length; i++)
+	for (j = 0; j < i; j++)
 	{
-		point[i] = str[i];
+		point[j] = str[j];
 	}
-	point[i] = '\0';
+	point[j] = '\0';
 
 	return (point);
+}
 }
