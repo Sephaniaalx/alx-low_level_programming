@@ -1,6 +1,5 @@
 #include "3-calc.h"
 
-/* A function that is an array of pointers */
 int (*get_op_func(char *s))(int, int);
 
 /**
