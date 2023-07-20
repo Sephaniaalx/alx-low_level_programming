@@ -3,6 +3,11 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <stdarg.h>
+
 /**
  * struct op - The Struct op
  *
