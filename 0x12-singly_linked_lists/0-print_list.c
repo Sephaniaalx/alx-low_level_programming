@@ -1,15 +1,10 @@
 #include "lists.h"
 /**
- * print_list - Prints all the elements of a singly linked list
+ * print_list - main function
  *
- * @h: Pointer to the head node of the list
+ * @h: Pointer
  *
  * Return: The number of nodes in the list
- *
- * Description: This function takes a pointer to the head node of a singly
- * linked list and prints the value of each node in the list.
- * a node contains a NULL string the function prints "(nil)" instead.
- * The function returns the number of nodes in the list.
  **/
 size_t print_list(const list_t *h)
 {
