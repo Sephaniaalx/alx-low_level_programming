@@ -1,9 +1,9 @@
 #include "lists.h"
 /**
  * list_len - Main function
- * @h: A pointer 
+ * @h: A pointer
  *
- * Return: The number 
+ * Return: The number
  */
 size_t list_len(const list_t *h)
 {
